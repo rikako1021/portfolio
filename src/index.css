@@ -172,7 +172,7 @@ header > h1 {
  text-align: center;
 }
 
-.home_title h1{
+.home_title h1 { 
  color: white;
  font-size: 70px;
  background: rgba(0,0,0,0.6);
@@ -181,4 +181,73 @@ header > h1 {
  margin: 5px;
  border-radius: 5px;
 }
+
+/* about.js */
+.about {
+  margin-top: 80px;
+}
+ 
+.about > h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+ 
+.profile {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0 10px;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
+}
+ 
+.profile > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.content {
+  display: flex;
+}
+ 
+.skill {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0 10px;
+  color: white;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.5032387955182073) 100%);
+  width: 50%;
+}
+ 
+.skill > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ 
+div.skill > ul {
+  padding: 0;
+}
+ 
+div.skill > ul > li {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  box-sizing:border-box;
+}
+ 
+.experience {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0 10px;
+  color: white;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgb(185, 122, 182) 0%, rgba(146, 216, 243, 0.719) 50%, rgba(252,176,69,1) 100%);
+  width: 50%;
+}
+ 
 
