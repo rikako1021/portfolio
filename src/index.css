@@ -219,7 +219,7 @@ header > h1 {
   padding: 0 10px;
   color: white;
   background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.5032387955182073) 100%);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45, 253, 218, 0.503) 100%);
   width: 50%;
 }
  
@@ -240,13 +240,13 @@ div.skill > ul > li {
 }
  
 .experience {
-  border: 1px solid gray;
+  border: 1px solid white;
   border-radius: 5px;
   margin: 5px;
   padding: 0 10px;
   color: white;
   background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgb(185, 122, 182) 0%, rgba(146, 216, 243, 0.719) 50%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(180deg, rgb(185, 122, 182) 0%, rgba(146, 216, 243, 0.719) 50%, rgb(138, 255, 196) 100%);
   width: 50%;
 }
  
