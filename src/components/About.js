@@ -6,7 +6,10 @@ function About() {
        <h1>About Me</h1>
        <div className="profile">
            <h2>Profile</h2>
-           <p>あああああああああああ</p>
+           <p>Rikako Omote | 表梨花子</p>
+           <br/>
+           <p>2000年 京都市生まれ。静岡県浜松市在住。<br />静岡大学情報学部行動情報学科在学中。</p>
+           <p>Born in Kyoto in 2000. Living in Shizuoka.<br/>Studying behavioral informatics at Shizuoka University.</p>
        </div>
        <div className="content">
            <div className="skill">
