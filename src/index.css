@@ -117,8 +117,8 @@ code {
 }
 /* Home.js */
 header {
- padding-left: 10%;
- padding-right: 10%;
+ padding-left: 5%;
+ padding-right: 5%;
  padding-top: 0;
  padding-bottom: 0;
  position: fixed;
@@ -216,13 +216,12 @@ header > h1 {
 }
  
 .skill {
-  border: 1px solid gray;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 0 10px;
+  
+  margin: 20px;
+  padding: 30px;
   color: white;
   background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45, 253, 218, 0.503) 100%);
+  background: linear-gradient(180deg, rgb(21, 112, 114) 0%, rgba(33, 187, 161, 0.503) 100%);
   width: 50%;
 }
  
@@ -233,24 +232,47 @@ header > h1 {
  
 div.skill > ul {
   padding: 0;
+  overflow: hidden;
 }
  
 div.skill > ul > li {
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
+  float: left;
   box-sizing:border-box;
 }
  
 .experience {
-  border: 1px solid white;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 0 10px;
+  margin: 20px;
+  padding: 30px;
   color: white;
   background: rgb(131,58,180);
-  background: linear-gradient(180deg, rgb(185, 122, 182) 0%, rgba(146, 216, 243, 0.719) 50%, rgb(138, 255, 196) 100%);
+  background: linear-gradient(180deg, rgba(92, 134, 189, 0.932) 0%, rgba(82, 153, 194, 0.548) 50%);
   width: 50%;
 }
+.experience > h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.experience > p {
+  text-align: center;
+  line-height: 150%;
+}
+div.experience > ul {
+  padding: 0;
+  overflow: hidden;
+}
  
-
+div.experience > ul > li {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  box-sizing:border-box;
+}
+.about > img{
+  width: 100%;
+  max-height: max-content;
+  object-fit: cover; 
+  /* min-height:100vh; */
+ }
