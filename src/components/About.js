@@ -1,4 +1,5 @@
 import React from 'react'
+import image from '../about.jpg'
 
 function About() {
  return (
@@ -6,6 +7,7 @@ function About() {
        <h1>About Me</h1>
        <div className="profile">
            <h2>Profile</h2>
+           <br/>
            <p>Rikako Omote | 表梨花子</p>
            <br/>
            <p>2000年 京都市生まれ。静岡県浜松市在住。<br />静岡大学情報学部行動情報学科在学中。</p>
@@ -33,6 +35,7 @@ function About() {
                 <p>いいいいいいいいいいいいい</p>
            </div>
        </div>
+       <img src={image} alt="Main" />
    </div>
  )
 }
