@@ -46,30 +46,14 @@ q:before, q:after {
 a {
     margin:0;
     padding:0;
-    /*font-size:100%; */
     vertical-align:baseline;
     background:transparent;
 }
-
-/* change colours to suit your needs */
 ins {
     background-color:#ff9;
     color:#000;
     text-decoration:none;
 }
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
 abbr[title], dfn[title] {
     border-bottom:1px dotted;
     cursor:help;
@@ -80,7 +64,6 @@ table {
     border-spacing:0;
 }
 
-/* change border colour to suit your needs */
 hr {
     display:block;
     height:1px;
@@ -273,7 +256,6 @@ div.experience > ul > li {
   width: 100%;
   max-height: max-content;
   object-fit: cover; 
-  /* min-height:100vh; */
  }
 
  /* contact */
