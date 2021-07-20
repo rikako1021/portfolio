@@ -22,6 +22,7 @@ function Conatct() {
      <p>omote.rikako.19 [at] shizuoka.ac.jp</p>
      <br />
      <br/>
+     <br/>
     </div>
     <img src={image} alt="Contact" />
     </div>

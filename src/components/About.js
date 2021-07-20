@@ -8,9 +8,12 @@ function About() {
        <div className="profile">
            <h2>Profile</h2>
            <br/>
+           <br/>
            <p>Rikako Omote | 表梨花子</p>
            <br/>
+           <br/>
            <p>2000年 京都市生まれ。静岡県浜松市在住。<br />静岡大学情報学部行動情報学科在学中。</p>
+           <br/>
            <p>Born in Kyoto in 2000. Living in Shizuoka.<br/>Studying behavioral informatics at Shizuoka University.</p>
        </div>
        <div className="content">
@@ -19,7 +22,7 @@ function About() {
             <br/>
             <ul>
                 <li>HTML5 / CSS3</li>
-                <li>Javascript (Vue,Nuxt,React,Node)</li>
+                <li>Javascript ( Vue, Nuxt, React, Node )</li>
                 <li>PHP(Laravel)</li>
                 <li>Golang</li>
             </ul>

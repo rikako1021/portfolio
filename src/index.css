@@ -186,22 +186,18 @@ header > h1 {
 .about {
   margin-top: 80px;
 }
- 
 .about > h1 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 30px;
 }
- 
 .profile {
   text-align: center;
   margin: 20px;
   padding: 30px;
   color: white;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgb(61, 68, 112) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgb(108, 78, 156) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
 }
- 
 .profile > h2 {
   text-align: center;
   font-size: 30px;
@@ -209,6 +205,7 @@ header > h1 {
 
 .profile > p {
   line-height: 150%;
+  font-size: 20px;
 }
  
 .content {
@@ -233,6 +230,7 @@ header > h1 {
 div.skill > ul {
   padding: 0;
   overflow: hidden;
+  font-size: 20px;
 }
  
 div.skill > ul > li {
@@ -248,7 +246,7 @@ div.skill > ul > li {
   padding: 30px;
   color: white;
   background: rgb(131,58,180);
-  background: linear-gradient(180deg, rgba(92, 134, 189, 0.932) 0%, rgba(82, 153, 194, 0.548) 50%);
+  background: linear-gradient(180deg, rgba(92, 134, 189, 0.932) 0%, rgba(82, 153, 194, 0.521) 100%);
   width: 50%;
 }
 .experience > h2 {
@@ -262,13 +260,14 @@ div.skill > ul > li {
 div.experience > ul {
   padding: 0;
   overflow: hidden;
+  font-size: 19px;
+  font-weight: 530;
 }
  
 div.experience > ul > li {
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
-  box-sizing:border-box;
 }
 .about > img{
   width: 100%;
@@ -294,19 +293,20 @@ div.experience > ul > li {
   list-style: none;
   text-align: center;
   margin: auto;
-  padding: 0;
+  padding: 10%;
 }
 .contact li {
   display: table-cell;
   width: 33.3333%;
   text-align: center;
   text-decoration: none;
-  padding: 50px;
+  padding: 20px;
   box-sizing: border-box;
   opacity: 0.7;
 }
 .contact p {
   line-height: 150%;
+  font-size: 20px;
 }
 .contact > img{
   width: 100%;
