@@ -199,7 +199,7 @@ header > h1 {
   padding: 30px;
   color: white;
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgb(48, 46, 82) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgb(61, 68, 112) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
 }
  
 .profile > h2 {
@@ -275,4 +275,41 @@ div.experience > ul > li {
   max-height: max-content;
   object-fit: cover; 
   /* min-height:100vh; */
+ }
+
+ /* contact */
+ .contact {
+  margin-top: 80px;
+  text-align: center;
+}
+.contact > h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.contact ul {
+  overflow: hidden;
+  display: table;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+.contact li {
+  display: table-cell;
+  width: 33.3333%;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px;
+  box-sizing: border-box;
+  opacity: 0.7;
+}
+.contact p {
+  line-height: 150%;
+}
+.contact > img{
+  width: 100%;
+  max-height: max-content;
+  object-fit: cover; 
  }

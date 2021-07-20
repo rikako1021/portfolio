@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../main.jpeg';
+import image from '../image/main.jpeg';
 
 function Home() {
  return (
