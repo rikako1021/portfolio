@@ -46,6 +46,10 @@ function About() {
                 </ul>
            </div>
        </div>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
        <img src={image} alt="Main" />
    </div>
  )

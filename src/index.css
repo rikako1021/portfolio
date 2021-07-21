@@ -49,11 +49,6 @@ a {
     vertical-align:baseline;
     background:transparent;
 }
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
 table {
     border-collapse:collapse;
     border-spacing:0;
@@ -87,8 +82,8 @@ code {
 header {
  padding-left: 5%;
  padding-right: 5%;
- padding-top: 0;
- padding-bottom: 0;
+ padding-top: 0%;
+ padding-bottom: 0%;
  position: fixed;
  top: 0;
  width: 100%;
@@ -119,9 +114,18 @@ header > h1 {
  }
  
  header > nav > ul > li {
-  margin: 0 0 0 30px;
+  margin: 10px 0 10px 20px;
   font-size: 10px;
+  display: table-cell;
+  padding-bottom: 5px;
  }
+ nav > li.current {
+  border-bottom: 3px solid #92D050;
+ }
+ nav li:hover{
+  border-bottom: 3px solid #61c5b8;
+  }
+
  /* Home.js  */
 .home{
  position: relative;
@@ -164,7 +168,9 @@ header > h1 {
   margin: 20px;
   padding: 30px;
   color: white;
-  background: linear-gradient(90deg, rgb(108, 78, 156) 0%, rgba(9,9,121,0.500437675070028) 31%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgb(93, 58, 117) 0%, rgba(9,9,121,0.500437675070028) 30%, rgba(92, 212, 236, 0.89) 100%);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.411);
+  border-radius: 4px;
 }
 .profile > h2 {
   text-align: center;
@@ -181,13 +187,14 @@ header > h1 {
 }
  
 .skill {
-  
   margin: 20px;
   padding: 30px;
   color: white;
   background: rgb(34,193,195);
   background: linear-gradient(180deg, rgb(21, 112, 114) 0%, rgba(33, 187, 161, 0.503) 100%);
   width: 50%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.411);
+  border-radius: 4px;
 }
  
 .skill > h2 {
@@ -216,6 +223,8 @@ div.skill > ul > li {
   background: rgb(131,58,180);
   background: linear-gradient(180deg, rgba(92, 134, 189, 0.932) 0%, rgba(82, 153, 194, 0.521) 100%);
   width: 50%;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.411);
+  border-radius: 4px;
 }
 .experience > h2 {
   text-align: center;
@@ -280,3 +289,50 @@ div.experience > ul > li {
   max-height: max-content;
   object-fit: cover; 
  }
+
+ /* product */
+ .product {
+  margin-top: 80px;
+  text-align: center;
+}
+.product > h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+ .card {
+  margin: 30px;
+  width: 300px;
+  background: rgba(77, 182, 163, 0.685);
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgb(136, 135, 135);
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+  text-align: center;
+  line-height: 150%;
+}
+.card-content > h1 {
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  color: #333;
+}
+.card > a:hover {
+  color: #0090aa;
+}
+.card-group {
+  margin: auto;
+  max-width: 75%;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
