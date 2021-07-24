@@ -5,12 +5,12 @@ function Header() {
  return (
      <header>
          <h1>
-             <NavLink to="/" axact>Portfolio</NavLink>
+             <NavLink to="/" axact="true">Portfolio</NavLink>
          </h1>
          <nav>
              <ul>
                  <li><NavLink to="/about">About Me  </NavLink></li>
-                 <li><NavLink to="/product">Product  </NavLink></li>
+                 <li><NavLink to="/Product">Product  </NavLink></li>
                  <li><NavLink to="/contact">Contact  </NavLink></li>
              </ul>
          </nav>

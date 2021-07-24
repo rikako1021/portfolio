@@ -4,7 +4,7 @@ import facebook from '../image/facebook.png'
 import instagram from '../image/instagram.png'
 import image from '../image/contact.jpg'
 
-function Conatct() {
+function Contact() {
  return (
    <div className="contact">
     <br/>
@@ -29,4 +29,4 @@ function Conatct() {
  )
 }
 
-export default Conatct
+export default Contact
