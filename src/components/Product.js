@@ -1,7 +1,8 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Modal from '@material-ui/core/Modal'
-import product1 from '../image/linebot.jpg';
+import product1 from '../image/linebot.jpg'
+import product2 from '../image/analysis.png'
 
 function rand() {
   return Math.round(Math.random() * 20) -10;
@@ -72,9 +73,10 @@ export default function Product() {
      >
        {body}
     </Modal>
+
      <a href="/">
      <section className="card">
-       <img className="card-img" src={product1} alt=""/>
+       <img className="card-img" src={product2} alt="" width="300px" height="300px" />
        <div className="card-content">
          <h1>Analysis Tool</h1>
          <br/>
