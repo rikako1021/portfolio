@@ -45,9 +45,16 @@ export default function Product() {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">Text in a modal</h2>
+      <h2 id="simple-modal-title">LINEトーク上で送信された位置情報から周辺の位置情報を紹介するLINEBot</h2>
+      <br/>
       <p id="simple-modal-description">
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
+        <br />
+        <hr/>
+        リソース：Go, LINEmessagingAPI, HotpepperAPI, Heroku
+        <br />
+        <hr/>
+        <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
       </p>
     </div>
   );

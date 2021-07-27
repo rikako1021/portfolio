@@ -21,7 +21,7 @@ time, mark, audio, video {
 }
 
 body {
-    line-height:1;
+    line-height: 150%;
 }
 
 article,aside,details,figcaption,figure,
@@ -335,4 +335,19 @@ div.experience > ul > li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#simple-modal-title {
+  text-align: center;
+}
+
+.GithubLink {
+  text-align: center;
+  font-size: 120%;
+}
+#simple-modal-description hr {
+  border-width: 1.5px 2px 1.5px 0px; /* 太さ */
+  border-style: solid; /* 線種 */
+  border-color: rgba(69, 131, 128, 0.795);   /* 線色 */
+  height: 1px;         /* 高さ(※古いIE用) */
 }
