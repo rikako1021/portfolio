@@ -58,6 +58,36 @@ export default function Product() {
       </p>
     </div>
   );
+  const body2 = (
+    <div style={modalStyle} className={classes.paper}>
+      <h2 id="simple-modal-title">LINEトーク上で送信された位置情報から周辺の位置情報を紹介するLINEBot</h2>
+      <br/>
+      <p id="simple-modal-description">
+        とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
+        <br />
+        <hr/>
+        リソース：Go, LINEmessagingAPI, HotpepperAPI, Heroku
+        <br />
+        <hr/>
+        <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
+      </p>
+    </div>
+  );
+  const body3 = (
+    <div style={modalStyle} className={classes.paper}>
+      <h2 id="simple-modal-title">LINEトーク上で送信された位置情報から周辺の位置情報を紹介するLINEBot</h2>
+      <br/>
+      <p id="simple-modal-description">
+        とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
+        <br />
+        <hr/>
+        リソース：Go, LINEmessagingAPI, HotpepperAPI, Heroku
+        <br />
+        <hr/>
+        <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
+      </p>
+    </div>
+  );
 
 // function Product() {
  return (
@@ -65,6 +95,7 @@ export default function Product() {
      <h1>Products</h1>
      <div className="card-group">
        <button type="button" onClick={handleOpen}>
+
      <section className="card">
        <img className="card-img" src={product1} alt=""/>
        <div className="card-content">
@@ -81,24 +112,42 @@ export default function Product() {
        {body}
     </Modal>
 
-     <a href="/">
+    <button type="button" onClick={handleOpen}>
      <section className="card">
        <img className="card-img" src={product2} alt="" width="300px" height="300px" />
        <div className="card-content">
          <h1>Analysis Tool</h1>
          <br/>
        </div>
-     </section></a>
-     <a href="/">
+     </section></button>
+     <Modal
+     open={open}
+     onClose={handleClose}
+     aria-labelledby="simple-modal-title"
+     aria-describedby="simple-modal-description"
+     >
+       {body2}
+    </Modal>
+
+     <button type="button" onClick={handleOpen}>
      <section className="card">
        <img className="card-img" src={product1} alt=""/>
        <div className="card-content">
          <h1>Recipe Page</h1>
          <br/>
        </div>
-     </section></a>
+     </section></button>
+     <Modal
+     open={open}
+     onClose={handleClose}
+     aria-labelledby="simple-modal-title"
+     aria-describedby="simple-modal-description"
+     >
+       {body3}
+    </Modal>
      </div>
    </div>
+   
  )
 // }
 }
