@@ -93,7 +93,7 @@ export default function Product() {
  return (
    <div className="product">
      <h1>Products</h1>
-     <div className="card-group">
+    <div className="card-group">
        <button type="button" onClick={handleOpen}>
 
      <section className="card">
@@ -103,7 +103,7 @@ export default function Product() {
          <br/>
        </div>
      </section></button>
-     <Modal
+    <Modal
      open={open}
      onClose={handleClose}
      aria-labelledby="simple-modal-title"
@@ -149,7 +149,6 @@ export default function Product() {
    </div>
    
  )
-// }
 }
 
 // export default Product

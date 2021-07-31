@@ -1,3 +1,4 @@
+
 /* reset */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -290,7 +291,7 @@ div.experience > ul > li {
 }
 .contact p {
   line-height: 150%;
-  font-size: 20px;
+  font-size: 100%;
 }
 .contact > img{
   width: 100%;
@@ -359,3 +360,24 @@ div.experience > ul > li {
   border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
   height: 1px;         /* 高さ(※古いIE用) */
 }
+
+.card-group2  {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: contents;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+    .card-group2  {
+      display: flex;
+    }
+   .skill, .experience {
+      margin: 20px;
+      padding: 30px;
+      width: 100%;
+   }
+} 

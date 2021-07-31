@@ -1,6 +1,9 @@
 import React from 'react'
 import image from '../image/about.jpg'
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
+
 function About() {
  return (
    <div className="about">
@@ -17,7 +20,9 @@ function About() {
            <p>Born in Kyoto in 2000. Living in Shizuoka.<br/>Studying behavioral informatics at Shizuoka University.</p>
        </div>
        <div className="content">
+           <div className="card-group2">
            <div className="skill">
+            
             <h2>Programming Skill</h2>
             <br/>
             <ul>
@@ -27,6 +32,7 @@ function About() {
                 <li>Golang</li>
             </ul>
             <br/>
+            
             <h2>Tools</h2>
             <ul>
                 <li>Docker</li>
@@ -44,6 +50,7 @@ function About() {
                 <li>2019年4月<br/>静岡大学情報学部行動情報学科に入学</li>
                 <li>2023年3月<br/>同大学を卒業予定</li>
                 </ul>
+           </div>
            </div>
        </div>
        <br/>
