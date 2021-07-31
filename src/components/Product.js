@@ -69,7 +69,7 @@ export default function Product() {
         リソース：PHP, Laravel, Sqlite
         <br />
         <hr/>
-        <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
+        <div className="GithubLink"><a href="https://github.com/rikako1021/bookOrder-analysis">Program</a></div>
       </p>
     </div>
   );
@@ -84,7 +84,7 @@ export default function Product() {
         リソース：Vue.js, Nuxt.js, Node.js, Firebase
         <br />
         <hr/>
-        <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
+        <div className="GithubLink"><a href="https://github.com/rikako1021/book-search-app">Program</a></div>
       </p>
     </div>
   );
