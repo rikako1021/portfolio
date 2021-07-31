@@ -78,7 +78,7 @@ export default function Product() {
       <h2 id="simple-modal-title">書籍一覧を表示し、絞り込み検索ができるWebページ</h2>
       <br/>
       <p id="simple-modal-description">
-        とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
+        書籍の一覧結果を表示し、在庫の有無や商品カテゴリでの絞り込みが可能になっているWebページです。
         <br />
         <hr/>
         リソース：Vue.js, Nuxt.js, Node.js, Firebase
