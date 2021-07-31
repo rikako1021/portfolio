@@ -60,13 +60,13 @@ export default function Product() {
   );
   const body2 = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">LINEトーク上で送信された位置情報から周辺の位置情報を紹介するLINEBot</h2>
+      <h2 id="simple-modal-title">売上データを分析するツール</h2>
       <br/>
       <p id="simple-modal-description">
-        とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
+        データベースに登録された売上データをグラフ表示し、次期発注数を予測するツール
         <br />
         <hr/>
-        リソース：Go, LINEmessagingAPI, HotpepperAPI, Heroku
+        リソース：PHP,Laravel,Sqlite
         <br />
         <hr/>
         <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
@@ -81,7 +81,7 @@ export default function Product() {
         とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
         <br />
         <hr/>
-        リソース：Go, LINEmessagingAPI, HotpepperAPI, Heroku
+        リソース：PHP, Sqlite
         <br />
         <hr/>
         <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
