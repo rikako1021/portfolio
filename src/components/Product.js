@@ -63,10 +63,10 @@ export default function Product() {
       <h2 id="simple-modal-title">売上データを分析するツール</h2>
       <br/>
       <p id="simple-modal-description">
-        データベースに登録された売上データをグラフ表示し、次期発注数を予測するツール
+        データベースに登録された売上データをグラフ表示し、次期発注数を予測するツールです。
         <br />
         <hr/>
-        リソース：PHP,Laravel,Sqlite
+        リソース：PHP, Laravel, Sqlite
         <br />
         <hr/>
         <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
@@ -75,13 +75,13 @@ export default function Product() {
   );
   const body3 = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">LINEトーク上で送信された位置情報から周辺の位置情報を紹介するLINEBot</h2>
+      <h2 id="simple-modal-title">書籍一覧を表示し、絞り込み検索ができるWebページ</h2>
       <br/>
       <p id="simple-modal-description">
         とにかく手軽に、今すぐ飲食店を探したい！という時になるべく少ない手間で使えるよう開発しました。
         <br />
         <hr/>
-        リソース：PHP, Sqlite
+        リソース：Vue.js, Nuxt.js, Node.js, Firebase
         <br />
         <hr/>
         <div className="GithubLink"><a href="https://github.com/rikako1021/Go-LineBot">Program</a></div>
