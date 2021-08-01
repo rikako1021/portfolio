@@ -109,12 +109,15 @@ header > h1 {
  
  header a {	
   text-decoration: none;
-  color: #4b4b4b;
+  color: #fff;
   font-size: x-large;
+  line-height: 200%;
  }
  
  header > nav {
   margin: 0 0 0 auto;
+  width: 150px;
+  padding: 10px;
  }
  
  header > nav > ul {
@@ -381,3 +384,55 @@ div.experience > ul > li {
       width: 100%;
    }
 } 
+/*ハンバーガーメニュー*/
+#g_menu {
+  height: 100%;
+  width: 150px;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  transition: right 1s;
+  position: fixed;
+  top: 0;
+}
+#g_menu:not(:target) {
+  right: -100%;
+}
+
+#g_menu:target {
+  right: 0;
+}
+#g-menu > a {
+  color: #fff;
+}
+#g-menu > a:hover {
+  opacity: 0.7;
+}
+.btn {
+  text-align: right;
+}
+.btn a {
+  display: inline-block;
+  text-align: center;
+}
+#open {
+  text-align: right;
+}
+#open a {
+  width: 30px;
+  line-height: 30px;
+  transition: 1s;
+}
+#close a {
+  color: #fff;
+  background: #aaa;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+}
+#g_menu:not(:target) {
+  right: -100%;
+}
+
+#g_menu:target {
+  right: 0;
+}
