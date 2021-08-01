@@ -3,19 +3,19 @@ import image from '../image/about.jpg'
 import ScrollReveal from 'scrollreveal'
 
 ScrollReveal().reveal('.profile', {
-    delay: 200,
-    duration: 1000,
-    origin: "bottom",
-    distance: "40px",
-});
-ScrollReveal().reveal('.skill', {
     delay: 400,
     duration: 1000,
     origin: "bottom",
     distance: "40px",
 });
+ScrollReveal().reveal('.skill', {
+    delay: 500,
+    duration: 1000,
+    origin: "bottom",
+    distance: "40px",
+});
 ScrollReveal().reveal('.experience', {
-    delay: 600,
+    delay: 500,
     duration: 1000,
     origin: "bottom",
     distance: "40px"

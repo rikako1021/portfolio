@@ -372,12 +372,30 @@ div.experience > ul > li {
 #simple-modal-title {
   text-align: center;
 }
+#simple-modal-title2 {
+  text-align: center;
+}
+#simple-modal-title3 {
+  text-align: center;
+}
 
 .GithubLink {
   text-align: center;
   font-size: 120%;
 }
 #simple-modal-description hr {
+  border-width: 1.5px 0px 0px 0px; /* 太さ */
+  border-style: solid; /* 線種 */
+  border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
+  height: 1px;         /* 高さ(※古いIE用) */
+}
+#simple-modal-description2 hr {
+  border-width: 1.5px 0px 0px 0px; /* 太さ */
+  border-style: solid; /* 線種 */
+  border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
+  height: 1px;         /* 高さ(※古いIE用) */
+}
+#simple-modal-description3 hr {
   border-width: 1.5px 0px 0px 0px; /* 太さ */
   border-style: solid; /* 線種 */
   border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
@@ -393,6 +411,11 @@ div.experience > ul > li {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.product > img{
+  width: 100%;
+  max-height: max-content;
+  object-fit: cover; 
+ }
 
 @media screen and (max-width: 700px) {
     .card-group2  {

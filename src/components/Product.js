@@ -5,6 +5,7 @@ import product1 from '../image/linebot.jpg'
 import product2 from '../image/analysis.png'
 import product3 from '../image/recipe.jpg'
 import ScrollReveal from 'scrollreveal'
+import image from '../image/contact.jpg'
 
 ScrollReveal().reveal( ".card1", {
   delay: 200,
@@ -167,6 +168,9 @@ export default function Product() {
        {body3}
     </Modal>
      </div>
+     <br/>
+     <br/>
+     <img src={image} alt="Products" />
    </div>
    
  )
