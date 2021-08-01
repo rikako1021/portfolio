@@ -2,12 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import image from '../image/menu5.png'
 
-
-/*const navButton = document.getElementById('#nav-toggle');
- navButton.addEventListener('click', function() {
-     navButton.classList.add('open')
-    }) */
-
 function Header() { 
  return (
      <header id="head_wrap">
