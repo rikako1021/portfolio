@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Modal from '@material-ui/core/Modal'
 import product1 from '../image/linebot.jpg'
 import product2 from '../image/analysis.png'
+import product3 from '../image/recipe.jpg'
 import ScrollReveal from 'scrollreveal'
 
 ScrollReveal().reveal( ".card1", {
@@ -51,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Product() {
   const classes = useStyles();
-  // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyles);
   const [open, setOpen] = React.useState(false);
 
@@ -80,9 +80,9 @@ export default function Product() {
   );
   const body2 = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">売上データを分析するツール</h2>
+      <h2 id="simple-modal-title2">売上データを分析するツール</h2>
       <br/>
-      <p id="simple-modal-description">
+      <p id="simple-modal-description2">
         データベースに登録された売上データをグラフ表示し、次期発注数を予測するツールです。
         <br />
         <hr/>
@@ -95,9 +95,9 @@ export default function Product() {
   );
   const body3 = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">書籍一覧を表示し、絞り込み検索ができるWebページ</h2>
+      <h2 id="simple-modal-title3">書籍一覧を表示し、絞り込み検索ができるWebページ</h2>
       <br/>
-      <p id="simple-modal-description">
+      <p id="simple-modal-description3">
         書籍の一覧結果を表示し、在庫の有無や商品カテゴリでの絞り込みが可能になっているWebページです。
         <br />
         <hr/>
@@ -107,22 +107,23 @@ export default function Product() {
         <div className="GithubLink"><a href="https://github.com/rikako1021/book-search-app">Program</a></div>
       </p>
     </div>
-  );
+  ); 
 
 // function Product() {
  return (
    <div className="product">
      <h1>Products</h1>
     <div className="card-group">
-       <button type="button" onClick={handleOpen}>
-
+    
+    <button type="button" onClick={handleOpen}>
      <section className="card1">
        <img className="card-img" src={product1} alt=""/>
        <div className="card-content">
          <h1>LINEBOT</h1>
          <br/>
        </div>
-     </section></button>
+     </section>
+    </button>
     <Modal
      open={open}
      onClose={handleClose}
@@ -143,15 +144,15 @@ export default function Product() {
      <Modal
      open={open}
      onClose={handleClose}
-     aria-labelledby="simple-modal-title"
-     aria-describedby="simple-modal-description"
+     aria-labelledby="simple-modal-title2"
+     aria-describedby="simple-modal-description2"
      >
        {body2}
     </Modal>
 
      <button type="button" onClick={handleOpen}>
      <section className="card3">
-       <img className="card-img" src={product1} alt=""/>
+       <img className="card-img" src={product3} alt=""/>
        <div className="card-content">
          <h1>Recipe Page</h1>
          <br/>
@@ -160,8 +161,8 @@ export default function Product() {
      <Modal
      open={open}
      onClose={handleClose}
-     aria-labelledby="simple-modal-title"
-     aria-describedby="simple-modal-description"
+     aria-labelledby="simple-modal-title3"
+     aria-describedby="simple-modal-description3"
      >
        {body3}
     </Modal>
@@ -170,5 +171,3 @@ export default function Product() {
    
  )
 }
-
-// export default Product

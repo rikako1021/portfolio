@@ -9,12 +9,12 @@ function Header() {
             <NavLink to="/" axact="true">Portfolio</NavLink>
         </h1>
         <nav>
-        <div id="open" classNmae="btn">
+        <div id="open" className="btn">
              <a href="#g_menu"><img src={image} alt="menu" width="40%" /></a>
         </div>
         <div id="g_menu">
-        <div id="close" className="btn">
-            <a href="#">×</a>
+        <div id="close" className="btn2">
+            <a href="#">✖️</a>
         </div>
             <ul>
             <li><NavLink to="/about">About Me  </NavLink></li>

@@ -430,7 +430,10 @@ div.experience > ul > li {
 .btn {
   text-align: right;
 }
-.btn a {
+.btn2 {
+  text-align: right;
+}
+.btn2 a {
   display: inline-block;
   text-align: center;
 }
@@ -444,7 +447,7 @@ div.experience > ul > li {
 }
 #close a {
   color: #fff;
-  background: #aaa;
+  background: rgb(253, 253, 253);
   width: 30px;
   line-height: 30px;
   border-radius: 15px;
