@@ -3,6 +3,14 @@ import twitter from '../image/twitter.png'
 import facebook from '../image/facebook.png'
 import instagram from '../image/instagram.png'
 import image from '../image/contact.jpg'
+import ScrollReveal from 'scrollreveal'
+
+ScrollReveal().reveal( "links", {
+  delay: 500,
+  duration: 1000,
+  origin: "bottom",
+  distance: "40px",
+});
 
 function Contact() {
  return (

@@ -18,7 +18,7 @@ function Header() {
         </div>
             <ul>
             <li><NavLink to="/about">About Me  </NavLink></li>
-            <li><NavLink to="/Product">Product  </NavLink></li>
+            <li><NavLink to="/Product">Products  </NavLink></li>
             <li><NavLink to="/contact">Contact  </NavLink></li>
             </ul>
         </div>

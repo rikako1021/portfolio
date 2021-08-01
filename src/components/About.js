@@ -1,14 +1,33 @@
 import React from 'react'
 import image from '../image/about.jpg'
+import ScrollReveal from 'scrollreveal'
+
+ScrollReveal().reveal('.profile', {
+    delay: 200,
+    duration: 1000,
+    origin: "bottom",
+    distance: "40px",
+});
+ScrollReveal().reveal('.skill', {
+    delay: 400,
+    duration: 1000,
+    origin: "bottom",
+    distance: "40px",
+});
+ScrollReveal().reveal('.experience', {
+    delay: 600,
+    duration: 1000,
+    origin: "bottom",
+    distance: "40px"
+});
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-
 
 function About() {
  return (
    <div className="about">
-       <h1>About Me</h1>
-       <div className="profile">
+    <h1>About Me</h1>
+        <div className="profile">
            <h2>Profile</h2>
            <br/>
            <br/>
@@ -21,27 +40,27 @@ function About() {
        </div>
        <div className="content">
            <div className="card-group2">
+
            <div className="skill">
-            
             <h2>Programming Skill</h2>
             <br/>
-            <ul>
+             <ul>
                 <li>HTML5 / CSS3</li>
                 <li>Javascript ( Vue, Nuxt, React, Node )</li>
                 <li>PHP(Laravel)</li>
                 <li>Golang</li>
-            </ul>
+             </ul>
             <br/>
-            
             <h2>Tools</h2>
-            <ul>
+             <ul>
                 <li>Docker</li>
                 <li>github</li>
                 <li>Heroku</li>
                 <li>firebase</li>
                 <li>MySQL</li>
-            </ul>
+             </ul>
            </div>
+           
            <div className="experience">
                <h2>Experience</h2>
                <br/>

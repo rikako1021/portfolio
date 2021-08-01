@@ -3,6 +3,26 @@ import { makeStyles } from '@material-ui/core/styles'
 import Modal from '@material-ui/core/Modal'
 import product1 from '../image/linebot.jpg'
 import product2 from '../image/analysis.png'
+import ScrollReveal from 'scrollreveal'
+
+ScrollReveal().reveal( ".card1", {
+  delay: 200,
+  duration: 800,
+  origin: "bottom",
+  distance: "40px",
+});
+ScrollReveal().reveal( ".card2", {
+  delay: 400,
+  duration: 800,
+  origin: "bottom",
+  distance: "40px",
+});
+ScrollReveal().reveal( ".card3", {
+  delay: 600,
+  duration: 800,
+  origin: "bottom",
+  distance: "40px",
+});
 
 function rand() {
   return Math.round(Math.random() * 20) -10;
@@ -96,7 +116,7 @@ export default function Product() {
     <div className="card-group">
        <button type="button" onClick={handleOpen}>
 
-     <section className="card">
+     <section className="card1">
        <img className="card-img" src={product1} alt=""/>
        <div className="card-content">
          <h1>LINEBOT</h1>
@@ -113,7 +133,7 @@ export default function Product() {
     </Modal>
 
     <button type="button" onClick={handleOpen}>
-     <section className="card">
+     <section className="card2">
        <img className="card-img" src={product2} alt="" width="300px" height="300px" />
        <div className="card-content">
          <h1>Analysis Tool</h1>
@@ -130,7 +150,7 @@ export default function Product() {
     </Modal>
 
      <button type="button" onClick={handleOpen}>
-     <section className="card">
+     <section className="card3">
        <img className="card-img" src={product1} alt=""/>
        <div className="card-content">
          <h1>Recipe Page</h1>

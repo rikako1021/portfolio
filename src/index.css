@@ -312,7 +312,21 @@ div.experience > ul > li {
   font-size: 50px;
   margin-bottom: 30px;
 }
- .card {
+ .card1 {
+  margin: 30px;
+  width: 300px;
+  background: rgba(77, 182, 163, 0.685);
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgb(136, 135, 135);
+}
+.card2 {
+  margin: 30px;
+  width: 300px;
+  background: rgba(77, 182, 163, 0.685);
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgb(136, 135, 135);
+}
+.card3 {
   margin: 30px;
   width: 300px;
   background: rgba(77, 182, 163, 0.685);
@@ -335,7 +349,13 @@ div.experience > ul > li {
   text-align: center;
   color: #333;
 }
-.card > a:hover {
+.card1 > a:hover {
+  color: #0090aa;
+}
+.card2 > a:hover {
+  color: #0090aa;
+}
+.card3 > a:hover {
   color: #0090aa;
 }
 .card-group {
