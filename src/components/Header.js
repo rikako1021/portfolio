@@ -17,6 +17,7 @@ function Header() {
             <a href="#">✖️</a>
         </div>
             <ul>
+            <li><NavLink to="/">Top  </NavLink></li>
             <li><NavLink to="/about">About Me  </NavLink></li>
             <li><NavLink to="/Product">Products  </NavLink></li>
             <li><NavLink to="/contact">Contact  </NavLink></li>
