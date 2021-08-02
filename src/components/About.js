@@ -58,6 +58,9 @@ function About() {
                 <li>Heroku</li>
                 <li>firebase</li>
                 <li>MySQL</li>
+                <li>Eclipse</li>
+                <li>Figma</li>
+                <li>Android Studio</li>
              </ul>
            </div>
            

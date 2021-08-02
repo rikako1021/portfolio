@@ -8,33 +8,40 @@ import ScrollReveal from 'scrollreveal'
 import image from '../image/contact.jpg'
 
 ScrollReveal().reveal( ".card1", {
-  delay: 200,
-  duration: 800,
+  delay: 500,
+  duration: 1000,
   origin: "bottom",
   distance: "40px",
 });
 ScrollReveal().reveal( ".card2", {
-  delay: 400,
-  duration: 800,
+  delay: 600,
+  duration: 1000,
   origin: "bottom",
   distance: "40px",
 });
 ScrollReveal().reveal( ".card3", {
-  delay: 600,
-  duration: 800,
+  delay: 700,
+  duration: 1000,
   origin: "bottom",
   distance: "40px",
 });
 function getModalStyles() {
   const top = 50 ;
   const left = 50 ;
-
- return {
+}
+function getModalStyles2() {
+  const top = 50 ;
+  const left = 50 ;
+}
+function getModalStyles3() {
+  const top = 50 ;
+  const left = 50 ;
+}
+ /*return {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
-  };
-} 
+  }; */
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -45,14 +52,45 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2,4,3),
   },
 }));
+const useStyles2 = makeStyles((theme) => ({
+  paper: {
+    position: "absolute",
+    width: 400,
+    backgroundColor: theme.palette.background.paper,
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2,4,3),
+  },
+}));
+const useStyles3 = makeStyles((theme) => ({
+  paper: {
+    position: "absolute",
+    width: 400,
+    backgroundColor: theme.palette.background.paper,
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2,4,3),
+  },
+}));
+
 
 export default function Product() {
   const classes = useStyles();
+  const classes2 = useStyles2();
+  const classes3 = useStyles3();
   const [modalStyle] = React.useState(getModalStyles);
+  const [modalStyle2] = React.useState(getModalStyles2);
+  const [modalStyle3] = React.useState(getModalStyles3);
   const [open, setOpen] = React.useState(false);
+  const [open2, setOpen2] = React.useState(false);
+  const [open3, setOpen3] = React.useState(false);
 
   const handleOpen = () => {
     setOpen(true);
+  };
+  const handleOpen2 = () => {
+    setOpen2(true);
+  };
+  const handleOpen3 = () => {
+    setOpen3(true);
   };
 
   const handleClose = () => {
@@ -75,7 +113,7 @@ export default function Product() {
     </div>
   );
   const body2 = (
-    <div style={modalStyle} className={classes.paper}>
+    <div style={modalStyle2} className={classes2.paper}>
       <h2 id="simple-modal-title2">売上データを分析するツール</h2>
       <br/>
       <p id="simple-modal-description2">
@@ -90,7 +128,7 @@ export default function Product() {
     </div>
   );
   const body3 = (
-    <div style={modalStyle} className={classes.paper}>
+    <div style={modalStyle3} className={classes3.paper}>
       <h2 id="simple-modal-title3">書籍一覧を表示し、絞り込み検索ができるWebページ</h2>
       <br/>
       <p id="simple-modal-description3">
@@ -129,7 +167,7 @@ export default function Product() {
        {body}
     </Modal>
 
-    <button type="button" onClick={handleOpen}>
+    <button type="button" onClick={handleOpen2}>
      <section className="card2">
        <img className="card-img" src={product2} alt="" width="300px" height="300px" />
        <div className="card-content">
@@ -138,7 +176,7 @@ export default function Product() {
        </div>
      </section></button>
      <Modal
-     open={open}
+     open={open2}
      onClose={handleClose}
      aria-labelledby="simple-modal-title2"
      aria-describedby="simple-modal-description2"
@@ -146,7 +184,7 @@ export default function Product() {
        {body2}
     </Modal>
 
-     <button type="button" onClick={handleOpen}>
+     <button type="button" onClick={handleOpen3}>
      <section className="card3">
        <img className="card-img" src={product3} alt=""/>
        <div className="card-content">
@@ -155,7 +193,7 @@ export default function Product() {
        </div>
      </section></button>
      <Modal
-     open={open}
+     open={open3}
      onClose={handleClose}
      aria-labelledby="simple-modal-title3"
      aria-describedby="simple-modal-description3"
