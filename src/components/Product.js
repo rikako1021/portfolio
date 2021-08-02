@@ -25,32 +25,42 @@ ScrollReveal().reveal( ".card3", {
   origin: "bottom",
   distance: "40px",
 });
+
 function getModalStyles() {
   const top = 50 ;
   const left = 50 ;
+  return {
+  　top: `${top}%`,
+    left: `${left}%`,
+    transform: `translate(-${top}%, -${left}%)`,
+  };
 }
 function getModalStyles2() {
   const top = 50 ;
   const left = 50 ;
+  return {
+    top: `${top}%`,
+    left: `${left}%`,
+    transform: `translate(-${top}%, -${left}%)`,
+  };
 }
 function getModalStyles3() {
   const top = 50 ;
   const left = 50 ;
-}
- /*return {
+ return {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
-  }; */
+  }; 
+}
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
-    display: "none",
     width: 400,
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2,4,3),
+    padding: theme.spacing(4,4,4),
   },
 }));
 const useStyles2 = makeStyles((theme) => ({
@@ -59,7 +69,7 @@ const useStyles2 = makeStyles((theme) => ({
     width: 400,
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2,4,3),
+    padding: theme.spacing(4,4,4),
   },
 }));
 const useStyles3 = makeStyles((theme) => ({
@@ -68,7 +78,7 @@ const useStyles3 = makeStyles((theme) => ({
     width: 400,
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2,4,3),
+    padding: theme.spacing(4,4,4),
   },
 }));
 
@@ -96,6 +106,12 @@ export default function Product() {
 
   const handleClose = () => {
     setOpen(false);
+  };
+  const handleClose2 = () => {
+    setOpen2(false);
+  };
+  const handleClose3 = () => {
+    setOpen3(false);
   };
 
   const body = (
@@ -178,7 +194,7 @@ export default function Product() {
      </section></button>
      <Modal
      open={open2}
-     onClose={handleClose}
+     onClose={handleClose2}
      aria-labelledby="simple-modal-title2"
      aria-describedby="simple-modal-description2"
      >
@@ -195,7 +211,7 @@ export default function Product() {
      </section></button>
      <Modal
      open={open3}
-     onClose={handleClose}
+     onClose={handleClose3}
      aria-labelledby="simple-modal-title3"
      aria-describedby="simple-modal-description3"
      >

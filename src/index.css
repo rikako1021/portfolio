@@ -342,21 +342,7 @@ div.experience > ul > li {
   font-size: 50px;
   margin-bottom: 30px;
 }
- .card1 {
-  margin: 30px;
-  width: 300px;
-  background: rgba(77, 182, 163, 0.685);
-  border-radius: 4px;
-  box-shadow: 0 4px 15px rgb(136, 135, 135);
-}
-.card2 {
-  margin: 30px;
-  width: 300px;
-  background: rgba(77, 182, 163, 0.685);
-  border-radius: 4px;
-  box-shadow: 0 4px 15px rgb(136, 135, 135);
-}
-.card3 {
+ .card1, .card2, .card3 {
   margin: 30px;
   width: 300px;
   background: rgba(77, 182, 163, 0.685);
@@ -398,39 +384,20 @@ div.experience > ul > li {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#simple-modal-title {
+#simple-modal-title, #simple-modal-title2, #simple-modal-title3 {
   text-align: center;
 }
-#simple-modal-title2 {
-  text-align: center;
-}
-#simple-modal-title3 {
-  text-align: center;
-}
-
 .GithubLink {
   text-align: center;
   font-size: 120%;
 }
-#simple-modal-description hr {
+#simple-modal-description hr, #simple-modal-description2 hr,
+  #simple-modal-description3 hr {
   border-width: 1.5px 0px 0px 0px; /* 太さ */
   border-style: solid; /* 線種 */
   border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
   height: 1px;         /* 高さ(※古いIE用) */
 }
-#simple-modal-description2 hr {
-  border-width: 1.5px 0px 0px 0px; /* 太さ */
-  border-style: solid; /* 線種 */
-  border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
-  height: 1px;         /* 高さ(※古いIE用) */
-}
-#simple-modal-description3 hr {
-  border-width: 1.5px 0px 0px 0px; /* 太さ */
-  border-style: solid; /* 線種 */
-  border-color: rgba(94, 179, 174, 0.795);   /* 線色 */
-  height: 1px;         /* 高さ(※古いIE用) */
-}
-
 .card-group2  {
   margin: auto;
   max-width: 100%;
@@ -511,4 +478,3 @@ div.experience > ul > li {
 #g_menu:target {
   right: 0;
 }
-
