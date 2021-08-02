@@ -1,20 +1,29 @@
 import React from 'react';
-import image from '../image/main.jpeg';
 import { NavLink } from 'react-router-dom';
 
 
 function Home() {
  return (
-   <div className="home">
-       <img src={image} alt="Main" />
-       <div className="home_title">
-        <h1>This is my Portfolio</h1>
-     </div>
-     <NavLink to="/about">About Me  </NavLink>
-     <NavLink to="/product">Product  </NavLink>
-     <NavLink to="/contact">Contact  </NavLink>
+<div className="home">
+    <div className="home_title">
+      <h1>Portfolio</h1>
+    </div>
+  <br/>
+  <div className="menuBar">
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <ul className="home-banner">
+    <li><NavLink to="/about">About Me  </NavLink></li>
+     <br/>
+    <li><NavLink to="/product">Product  </NavLink></li>
+     <br/>
+    <li><NavLink to="/contact">Contact  </NavLink></li>
+    </ul>
+  </div>
+   <div>
+
    </div>
+</div>
+  
  )
 }
-
 export default Home

@@ -1,4 +1,3 @@
-
 /* reset */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,7 +19,6 @@ time, mark, audio, video {
     vertical-align:baseline;
     background:transparent;
 }
-
 body {
     line-height: 150%;
 }
@@ -32,26 +30,21 @@ button{
   padding: 0;
   appearance: none;
 }
-
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
 }
-
 nav ul {
     list-style:none;
 }
-
 blockquote, q {
     quotes:none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
     content:none;
 }
-
 a {
     margin:0;
     padding:0;
@@ -67,12 +60,12 @@ input, select {
 }
 
 /* edit */
-
 * {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
  }
+
 /* Header */
 body {
   margin: 0;
@@ -82,7 +75,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -139,31 +131,70 @@ header > h1 {
   }
 
  /* Home.js  */
-.home{
- position: relative;
+ .home {
+  display: table;
+  width: 95%;
+  margin: 2.5%;
+  height: 500px;
+  background-color: #1d9296c4;
+  transform: skewY(15deg);
+  margin-top: 20%;
+  position: relative;
 }
-
-.home > img{
- width: 100%;
- object-fit: cover;
- min-height:100vh;
+.home > * {
+  transform: skewY(-15deg);
 }
-
 .home_title{
  position: absolute;
  top: calc(35% - 0.5em);
  width: 100%;
  text-align: center;
+ box-shadow: 5px;
+ text-shadow: 0px 0px 10px gray;
 }
-
 .home_title h1 { 
  color: white;
- font-size: 70px;
- background: rgba(0,0,0,0.6);
+ font-size: 450%;
  display: inline-block;
- padding: 20px; 
- margin: 5px;
- border-radius: 5px;
+ padding: 30px; 
+border-bottom: solid 2px;
+border-color:#fdfcfc;
+border-width: 5px;/*5ピクセルの太さにする*/
+box-shadow: 0px 10px 5px -5px gray;
+}
+@media screen and (min-width:700px){
+  .home_title h1 {
+    font-size: 550%;
+    padding: 40px; 
+  }
+}
+@media screen and (min-width:700px) {
+  .home-banner li {
+    width: calc(75%/3);/*←画像を横に4つ並べる場合*/
+    padding:50px 5px;/*←画像の左右に5pxの余白を入れる場合*/
+    font-size: 155%;
+    margin: auto;
+    box-shadow:0px 0px 5px 0px gray, 0px 0px 5px 0px gray inset;
+  }
+}
+.home-banner {
+	display: flex;
+	flex-wrap:wrap;
+  text-align: center;
+}
+.home-banner li {
+	width: calc(75%/3);/*←画像を横に4つ並べる場合*/
+	padding:15px 5px;/*←画像の左右に5pxの余白を入れる場合*/
+  font-size: 115%;
+  margin: auto;
+	box-sizing:border-box;
+  border: solid;
+  border-color: #fdfcfc;
+  box-shadow:0px 0px 5px 0px gray, 0px 0px 5px 0px gray inset;
+}
+.home-banner li a {
+  color: #fdfcfc;
+  text-shadow: 0px 0px 10px gray;
 }
 
 /* about.js */
@@ -368,7 +399,6 @@ div.experience > ul > li {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 #simple-modal-title {
   text-align: center;
 }
@@ -482,3 +512,4 @@ div.experience > ul > li {
 #g_menu:target {
   right: 0;
 }
+

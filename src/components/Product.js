@@ -25,7 +25,6 @@ ScrollReveal().reveal( ".card3", {
   origin: "bottom",
   distance: "40px",
 });
-
 function getModalStyles() {
   const top = 50 ;
   const left = 50 ;
