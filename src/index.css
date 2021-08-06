@@ -451,6 +451,7 @@ div.experience > ul > li {
 }
 .btn2 {
   text-align: right;
+  padding: 10px;
 }
 .btn2 a {
   display: inline-block;
