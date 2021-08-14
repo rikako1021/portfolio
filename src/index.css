@@ -256,6 +256,7 @@ div.skill > ul > li {
   border-radius: 5px;
   float: left;
   box-sizing:border-box;
+  line-height: 100%;
 }
  
 .experience {
@@ -287,6 +288,7 @@ div.experience > ul > li {
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
+  line-height: 150%;
 }
 .about > img{
   width: 100%;
