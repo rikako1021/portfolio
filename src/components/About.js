@@ -62,6 +62,11 @@ function About() {
                 <li>Figma</li>
                 <li>Android Studio</li>
              </ul>
+            <h2>Qualifications</h2>
+             <ul>
+                <li>TOEIC 740</li>
+                <li>ITパスポート</li>
+             </ul>
            </div>
            
            <div className="experience">
@@ -70,6 +75,7 @@ function About() {
                <ul>
                 <li>2019年3月<br/>京都市立西京高等学校エンタープライジング科を卒業</li>
                 <li>2019年4月<br/>静岡大学情報学部行動情報学科に入学</li>
+                <li>2021年8月<br/>株式会社オトモ二にて長期インターン開始</li>
                 <li>2023年3月<br/>同大学を卒業予定</li>
                 </ul>
            </div>
