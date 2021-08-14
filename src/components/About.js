@@ -62,21 +62,27 @@ function About() {
                 <li>Figma</li>
                 <li>Android Studio</li>
              </ul>
+            <br/>
             <h2>Qualifications</h2>
              <ul>
-                <li>TOEIC 740</li>
+                <li>TOEIC 740点</li>
+                <li>実用英語技能検定 準一級</li>
                 <li>ITパスポート</li>
              </ul>
            </div>
            
            <div className="experience">
                <h2>Experience</h2>
-               <br/>
                <ul>
-                <li>2019年3月<br/>京都市立西京高等学校エンタープライジング科を卒業</li>
-                <li>2019年4月<br/>静岡大学情報学部行動情報学科に入学</li>
-                <li>2021年8月<br/>株式会社オトモ二にて長期インターン開始</li>
-                <li>2023年3月<br/>同大学を卒業予定</li>
+                <li>2016年4月 ー 2019年3月<br/>京都市立西京高等学校　エンタープライジング科</li>
+                <li>2019年4月 ー 2023年3月(予定)<br/>静岡大学 情報学部 行動情報学科</li>
+                
+                </ul>
+                <br/>
+                <h2>Work history</h2>
+                <ul>
+                <li>2020年4月 ー<br/>住友林業浜松支店　契約社員</li>
+                <li>2021年8月 ー<br/>株式会社オトモ二　長期インターン生</li>
                 </ul>
            </div>
            </div>
